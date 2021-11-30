@@ -59,7 +59,7 @@ class Calculator {
 
         // Reset operation and previous after compute
         this.currentValue = computation
-        this.operation = undefined
+        this.operation = null
         this.previousValue = ''
     }
 
