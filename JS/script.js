@@ -9,7 +9,7 @@ class Calculator {
     clear() {
         this.previousValue = ''
         this.currentValue = ''
-        this.operation = undefined
+        this.operation = null
     }
 
     // For deleting single number
