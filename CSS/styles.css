@@ -13,8 +13,8 @@ body {
 }
 .calculator-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(80px, 100px));
-    grid-template-rows: minmax(120px, auto) repeat(5, minmax(80px, 100px));
+    grid-template-columns: repeat(4, minmax(60px, 80px));
+    grid-template-rows: minmax(120px, auto) repeat(5, minmax(60px, 80px));
     gap: .1rem;
     border: .8rem solid rgb(30, 29, 63);
     border-radius: 10px;
